@@ -3,7 +3,8 @@ import React, { createContext, useReducer } from "react";
 import { reducer } from "./reducer";
 
 const initialState = {
-  
+  power: true,
+  volume: 20,
 };
 export const GlobalContext = createContext(initialState);
 
