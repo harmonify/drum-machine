@@ -19,7 +19,7 @@ module.exports = {
   },
   variants: {
     extend: {
-      ringWidth: ['hover'],
+      ringWidth: ['hover', 'focus'],
     },
   },
   plugins: [],
