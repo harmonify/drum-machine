@@ -26,11 +26,11 @@ export function DrumPad(props) {
     return () => {
       window.removeEventListener("keydown", handleKeyPress);
     };
-  }, []);
+  }, [state.power]);
 
   return (
     <button
-      className="drum-pad bg-gradient-to-l border-2 border-blue-600 text-white text-xl font-bold from-blue-600 to-blue-500 hover:from-blue-500 hover:ring focus:ring rounded-lg px-6 py-4 transition duration-75 outline-none"
+      className="drum-pad bg-gradient-to-l border-2 border-blue-600 text-white text-xl font-bold from-blue-600 to-blue-500 hover:from-blue-500 hover:ring focus:ring active:ring rounded-lg px-6 py-4 transition duration-75 outline-none"
       id={props.id}
       onClick={playSound}
     >
