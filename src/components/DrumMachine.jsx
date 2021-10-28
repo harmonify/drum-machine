@@ -19,6 +19,10 @@ export function DrumMachine() {
           <VolumeRange />
         </div>
       </div>
+      <div className="flex flex-col font-mono text-gray-800 text-sm">
+        <span>Hint: Play any drum pad by clicking it or tapping the matching keyword.</span>
+        <span>Kick the drum as you like!</span>
+      </div>
     </div>
   )
 }

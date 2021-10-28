@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
@@ -5,6 +7,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         'app': "url('/src/assets/img/background.jpg')",
+      },
+      colors: {
+        'cyan': colors.cyan,
       },
       fontFamily: {
         'ds': ['"Dancing Script"', 'cursive'],
@@ -19,7 +24,7 @@ module.exports = {
   },
   variants: {
     extend: {
-      ringWidth: ['hover', 'focus'],
+      ringWidth: ['hover', 'focus', 'active'],
     },
   },
   plugins: [],
