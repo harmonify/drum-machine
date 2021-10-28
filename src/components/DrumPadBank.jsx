@@ -3,10 +3,14 @@ import { DrumPad } from './DrumPad';
 export function DrumPadBank() {
   return (
     <div
-      className="grid grid-cols-3 gap-1"
+      className="grid grid-cols-3 gap-2"
       id="drum-pad-bank"
     >
-      <DrumPad />
+      <DrumPad
+        text="A"
+        id="A"
+        
+      />
       <DrumPad />
       <DrumPad />
       <DrumPad />
