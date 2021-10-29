@@ -20,7 +20,7 @@ export function PowerButton() {
           onChange={handleChange}
           className={`${
             state.power ? 'bg-blue-600' : 'bg-gray-200'
-          } relative inline-flex shadow-sm items-center scale-105 transform h-6 rounded-full w-11 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500`}
+          } relative inline-flex shadow items-center scale-105 transform h-6 rounded-full w-11 transition-colors hover:ring-2 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500`}
         >
           <span
             className={`${

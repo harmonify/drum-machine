@@ -20,7 +20,6 @@ export function VolumeRange() {
       <input
         type="range"
         className="bg-blue-500 w-full"
-        id=""
         min="0"
         max="100"
         value={state.volume}
