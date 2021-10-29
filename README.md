@@ -1,10 +1,27 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Drum Machine
+
+</div>
+<p align="center">
+<a href="https://harmonify-dm.netlify.app" target="_blank"><img src="https://raw.githubusercontent.com/harmonify/drum-machine/main/.github/img/preview.png" width="600"></a>
+</p>
+
+This is a drum machine I built using React and Tailwind for FreeCodeCamp's Front End Development Libraries Project. This project is hosted on [Netlify](https://harmonify-dm.netlify.app).  
+Credit to [Carlos Coronado](https://unsplash.com/@carloscoronadodr) for the [amazing shot](https://unsplash.com/photos/sSud-EZo23w) I used for the background.
+
+## Dependencies
+
+What I used to build up this project.
+
+1. [React v17.0.2](https://reactjs.org/)
+2. [Tailwind v2.2](https://tailwindcss.com/)
+3. [Headless UI](https://headlessui.dev/)
+4. [React Icons](https://react-icons.github.io/react-icons/)
 
 ## Available Scripts
 
-In the project directory, you can run:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). In the project directory, you can run:
 
 ### `npm start`
 
