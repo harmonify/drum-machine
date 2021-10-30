@@ -10,11 +10,11 @@ export function DrumMachine() {
       className="bg-gray-100 rounded-xl px-8 pt-2 pb-6 space-y-4 border-4 border-blue-600 shadow-2xl"
       id="drum-machine"
     >
-      <div className="header flex justify-center items-center italic font-bold text-3xl">
+      <div className="header flex justify-center items-center italic font-bold text-2xl md:text-3xl">
         <em className="mr-4">Harmonify&apos;s Drum Machine</em>
         <GiDrumKit />
       </div>
-      <div className="flex justify-around space-x-14">
+      <div className="flex flex-col md:flex-row justify-around space-y-4 md:space-x-14">
         <DrumPadBank />
         <div className="flex flex-col justify-center align-center space-y-8">
           <PowerButton />
